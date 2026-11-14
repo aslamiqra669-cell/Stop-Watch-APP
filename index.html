@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ur">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Digital Watch</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="watch">
+    <div class="screen">
+      <div class="time" id="display" aria-live="off">
+        <span id="hours">00</span><span class="sep">:</span><span id="minutes">00</span><span class="sep">:</span><span id="seconds">00</span><span class="ms">.<span id="millis">00</span></span>
+      </div>
+      <div class="status" id="status">Ready</div>
+    </div>
+
+    <div class="buttons">
+      <button id="startBtn" class="btn start">Start</button>
+      <button id="stopBtn" class="btn stop" disabled>Stop</button>
+      <button id="resetBtn" class="btn reset">Reset</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
